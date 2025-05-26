@@ -92,8 +92,8 @@ void Giaodich::on_pushButton_3_clicked()
     check = false;
     QString username_sender = getusernamex();
     QString username_receiver = ui->lineEdit_4->text();
-    QString path_receiver = QCoreApplication::applicationDirPath() + "/User_Member/" + username_receiver + ".txt";
-    QString path_sender = QCoreApplication::applicationDirPath() + "/User_Member/" + username_sender + ".txt";
+    QString path_receiver = QCoreApplication::applicationDirPath() + "/User/" + username_receiver + ".txt";
+    QString path_sender = QCoreApplication::applicationDirPath() + "/User/" + username_sender + ".txt";
     QFile file(path_receiver);
     if (!file.exists()) {
         QMessageBox::warning(this, "Trade", "Recipient account does not exist!");
@@ -141,7 +141,7 @@ void Giaodich::on_pushButton_3_clicked()
 
         QString timestamp = QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss");
 
-        QString history_sender_path = QCoreApplication::applicationDirPath() + "/User/" + username_sender + "_history.txt";
+        QString history_sender_path = QCoreApplication::applicationDirPath() + "/User_Member/" + username_sender + "_history.txt";
         QFile sender_history(history_sender_path);
         if (sender_history.open(QIODevice::Append | QIODevice::Text)) {
             QTextStream out(&sender_history);
@@ -149,7 +149,7 @@ void Giaodich::on_pushButton_3_clicked()
             sender_history.close();
         }
                                         // tạo lịch sử người gửi
-        QString history_receiver_path = QCoreApplication::applicationDirPath() + "/User/" + username_receiver + "_history.txt";
+        QString history_receiver_path = QCoreApplication::applicationDirPath() + "/User_Member/" + username_receiver + "_history.txt";
         QFile receiver_history(history_receiver_path);
         if (receiver_history.open(QIODevice::Append | QIODevice::Text)) {
             QTextStream out(&receiver_history);
