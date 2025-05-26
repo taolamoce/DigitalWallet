@@ -92,8 +92,8 @@ void Giaodich::on_pushButton_3_clicked()
     check = false;
     QString username_sender = getusernamex();
     QString username_receiver = ui->lineEdit_4->text();
-    QString path_receiver = QCoreApplication::applicationDirPath() + "/User/" + username_receiver + ".txt";
-    QString path_sender = QCoreApplication::applicationDirPath() + "/User/" + username_sender + ".txt";
+    QString path_receiver = QCoreApplication::applicationDirPath() + "/User_Member/" + username_receiver + ".txt";
+    QString path_sender = QCoreApplication::applicationDirPath() + "/User_Member/" + username_sender + ".txt";
     QFile file(path_receiver);
     if (!file.exists()) {
         QMessageBox::warning(this, "Trade", "Recipient account does not exist!");
