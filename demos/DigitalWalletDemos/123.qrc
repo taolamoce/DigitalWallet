@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/form">
+        <file>picture/xanhrreu.png</file>
+        <file>picture/xanhdam.jpg</file>
+        <file>picture/maubesiunhat.webp</file>
+        <file>picture/nengiaodich.png</file>
+        <file>picture/maube.jpg</file>
+        <file>picture/xamtrang.jpg</file>
+        <file>picture/xanhlanhat.jpg</file>
+        <file>picture/xanhdatroi4.jpg</file>
+        <file>picture/xanhdatroi3.jpg</file>
+        <file>picture/maubenengiaodich.jpg</file>
+        <file>picture/nenxanhgiaodich.png</file>
+        <file>picture/xanhdamhon.png</file>
+        <file>picture/red.png</file>
+        <file>picture/cam.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/anh">
+        <file>picture/avatar.png</file>
+    </qresource>
+</RCC>

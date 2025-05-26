@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/backgroup">
+        <file>picture/bg9.png</file>
+        <file>picture/logo9.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>picture/raw.png</file>
+    </qresource>
+</RCC>

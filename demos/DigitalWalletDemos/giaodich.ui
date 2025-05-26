@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Giaodich</class>
+ <widget class="QDialog" name="Giaodich">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>708</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>481</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/form/picture/nengiaodich.png);</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 600 24pt &quot;Segoe UI&quot;;
+color: rgb(27, 70, 93);</string>
+    </property>
+    <property name="text">
+     <string>Transfer to </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>60</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 600 24pt &quot;Segoe UI&quot;;
+color: rgb(27, 70, 93);</string>
+    </property>
+    <property name="text">
+     <string>Account Number </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>150</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+      <fontweight>DemiBold</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/form/picture/nenxanhgiaodich.png);
+color: rgb(253, 255, 212);
+border-image: url(:/form/picture/nenxanhgiaodich.png);
+font: 600 14pt &quot;Segoe UI&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Source Account</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>290</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+      <fontweight>DemiBold</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/form/picture/nenxanhgiaodich.png);
+color: rgb(253, 255, 212);
+border-image: url(:/form/picture/nenxanhgiaodich.png);
+font: 600 14pt &quot;Segoe UI&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Account Balance</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>180</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/form/picture/xanhlanhat.jpg);
+color: rgb(56, 56, 56);
+font: 600 15pt &quot;Segoe UI&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>  REWARDS ACCOUNT</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>220</y>
+      <width>381</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/form/picture/xanhdamhon.png);
+background-image: url(:/form/picture/xanhdamhon.png);
+color: rgb(255, 195, 126);
+font: 600 13pt &quot;Segoe UI&quot;;
+background-color: rgb(255, 154, 103);
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>320</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 600 14pt &quot;Segoe UI&quot;;
+border-image: url(:/form/picture/xanhdamhon.png);
+color: rgb(255, 255, 170);
+background-image: url(:/form/picture/xanhdamhon.png);</string>
+    </property>
+    <property name="text">
+     <string>POINTS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>320</y>
+      <width>371</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 600 14pt &quot;Segoe UI&quot;;
+border-color: rgb(255, 170, 127);
+background-color: rgb(252, 255, 83);
+color: rgb(253, 255, 213);
+border-image: url(:/form/picture/xanhdamhon.png);
+background-image: url(:/form/picture/xanhdamhon.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>180</y>
+      <width>381</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(253, 255, 213);
+border-image: url(:/form/picture/xanhdamhon.png);
+background-image: url(:/form/picture/xanhdamhon.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>460</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+      <fontweight>DemiBold</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/form/picture/nenxanhgiaodich.png);
+color: rgb(253, 255, 212);
+border-image: url(:/form/picture/nenxanhgiaodich.png);
+font: 600 14pt &quot;Segoe UI&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Transfer Details</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>490</y>
+      <width>371</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(253, 255, 213);
+border-image: url(:/form/picture/xanhdamhon.png);
+background-image: url(:/form/picture/xanhdamhon.png);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>600</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(44, 181, 160);
+font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>600</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/form/picture/xanhdatroi3.jpg);
+border-image: url(:/form/picture/xanhdatroi3.jpg);
+color: rgb(255, 255, 255);
+font: 600 14pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Continue</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>380</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+      <fontweight>DemiBold</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/form/picture/nenxanhgiaodich.png);
+color: rgb(253, 255, 212);
+border-image: url(:/form/picture/nenxanhgiaodich.png);
+font: 600 14pt &quot;Segoe UI&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Source Account</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>400</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(253, 255, 213);
+border-image: url(:/form/picture/xanhdamhon.png);
+background-image: url(:/form/picture/xanhdamhon.png);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>400</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 600 14pt &quot;Segoe UI&quot;;
+border-image: url(:/form/picture/xanhdamhon.png);
+color: rgb(255, 255, 170);
+background-image: url(:/form/picture/xanhdamhon.png);</string>
+    </property>
+    <property name="text">
+     <string>POINTS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>130</y>
+      <width>411</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/form/picture/nenxanhgiaodich.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_9</zorder>
+   <zorder>lineEdit_5</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_6</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>label_12</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

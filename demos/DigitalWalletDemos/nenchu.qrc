@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/nenchu1">
+        <file>picture/y-nghia-mau-trang-1.jpg</file>
+        <file>picture/Dark_Purple.webp</file>
+        <file>picture/troitoi.jpg</file>
+        <file>picture/help1.jpg</file>
+    </qresource>
+</RCC>
